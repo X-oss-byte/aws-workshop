@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="ee" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.106.0">
+    <meta name="description" content="AWS Modernization Workshop">
+<meta name="author" content="James Bland">
+
+    <link rel="icon" href="https://awsmedia.s3.amazonaws.com/favicon.ico" type="image/x-icon" />
+
+    <title>Partner Setup Instructions :: Event Engine Setup</title>
+
+    
+    <link href="/css/nucleus.css?1669217381" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1669217381" rel="stylesheet">
+    <link href="/css/hybrid.css?1669217381" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1669217381" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1669217381" rel="stylesheet">
+    <link href="/css/auto-complete.css?1669217381" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1669217381" rel="stylesheet">
+    <link href="/css/theme.css?1669217381" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1669217381" rel="stylesheet">
+    
+    <link href="/css/theme-mine.css?1669217381" rel="stylesheet">
+    
+    
+
+    <script src="/js/jquery-3.3.1.min.js?1669217381"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/ee/3_modulethree/31_partnersetup.html">
+    <nav id="sidebar" class="showVisitedLinks">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a href="/" title="Go home"><img style="vertical-align:middle;margin:30px;" src="../../images/AWS-Logo_White-Color.png" height="125px">
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1669217381"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1669217381"></script>
+<script type="text/javascript">
+    
+        var baseurl = "\/\/ee";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1669217381"></script>
+
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/ee/1_moduleone.html" title="Introduction" class="dd-item
+        
+        
+        
+        ">
+      <a href="/ee/1_moduleone.html">
+          Introduction
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/ee/1_moduleone/11_foreword.html" title="Foreword" class="dd-item ">
+        <a href="/ee/1_moduleone/11_foreword.html">
+        Foreword
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/ee/1_moduleone/12_technicalissue_problem.html" title="Technical Issue / Problem" class="dd-item ">
+        <a href="/ee/1_moduleone/12_technicalissue_problem.html">
+        Technical Issue / Problem
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/ee/1_moduleone/13_whoweare.html" title="Who We Are" class="dd-item ">
+        <a href="/ee/1_moduleone/13_whoweare.html">
+        Who We Are
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/ee/1_moduleone/14_workshopprerequisites.html" title="Workshop Prerequisites" class="dd-item ">
+        <a href="/ee/1_moduleone/14_workshopprerequisites.html">
+        Workshop Prerequisites
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/ee/1_moduleone/15_nextsteps.html" title="Workshop Next Steps" class="dd-item ">
+        <a href="/ee/1_moduleone/15_nextsteps.html">
+        Workshop Next Steps
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/ee/2_moduletwo_setup.html" title="AWS Hosted Workshop Setup" class="dd-item
+        
+        
+        
+        ">
+      <a href="/ee/2_moduletwo_setup.html">
+          AWS Hosted Workshop Setup
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/ee/2_moduletwo_setup/21_awseventengine.html" title="AWS Event Engine" class="dd-item ">
+        <a href="/ee/2_moduletwo_setup/21_awseventengine.html">
+        AWS Event Engine
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/ee/3_modulethree.html" title="Partner Setup" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/ee/3_modulethree.html">
+          Partner Setup
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/ee/3_modulethree/31_partnersetup.html" title="Partner Setup Instructions" class="dd-item active">
+        <a href="/ee/3_modulethree/31_partnersetup.html">
+        Partner Setup Instructions
+        <i class="fas fa-check read-icon"></i>
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/ee/4_modulefour.html" title="Hugo Framework and Markdown" class="dd-item
+        
+        
+        
+        ">
+      <a href="/ee/4_modulefour.html">
+          Hugo Framework and Markdown
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li>
+                  <a class="padding" href="https://awsworkshop.io"><i class='fas fa-graduation-cap'></i> Modernization Workshops</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://aws.amazon.com/builders-library/"><i class='fas fa-tools'></i> AWS Builders Library</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://aws.amazon.com/blogs/modernizing-with-aws/"><i class='far fa-lightbulb'></i> Modernization with AWS</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://eksworkshop.com/"><i class='fas fa-chalkboard-teacher'></i> EKS Workshop</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://ecsworkshop.com/"><i class='fas fa-chalkboard-teacher'></i> ECS Workshop</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://www.appmeshworkshop.com/"><i class='fas fa-chalkboard-teacher'></i> App Mesh Workshop</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="prefooter">
+      <hr/>
+      <ul>
+      
+
+      
+        <li><a class="padding" href="#" data-clear-history-toggle=""><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+      
+      </ul>
+    </section>
+    
+    <section id="footer">
+      <left>
+
+    <a href="https://aws.amazon.com/privacy/?nc1=f_pr">Privacy</a> | <a
+        href="https://aws.amazon.com/terms/?nc1=f_pr">Site Terms</a> | <a
+        href="https://modernization-workshop-bucket.s3-us-west-2.amazonaws.com/license/cc-license.html">CC BY-SA 4.0</a>
+
+</left>
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/ee/'>AWS Modernization Workshop Base Template</a> > <a href='/ee/3_modulethree.html'>Partner Setup</a> > Partner Setup Instructions
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+          <div id="chapter">
+        
+        <div id="body-inner">
+          
+
+        
+
+
+<h1 id="partner-setup-instructions----modify-this-heading---">Partner Setup Instructions <!-- raw HTML omitted --></h1>
+<h2 id="submodule-one-heading----modify-this-subheading---">Submodule One Heading <!-- raw HTML omitted --></h2>
+<p>This paragraph block should be an introduction to the submodule.</p>
+<h3 id="submodule-one-subheading----modify-this-subheading---">Submodule One Subheading <!-- raw HTML omitted --></h3>
+<p>This paragraph block should be utilized to start the submodule. <!-- raw HTML omitted --></p>
+
+<div class="notices info" ><!-- raw HTML omitted -->
+</div>
+
+<h3 id="next-section-or-conclusion-heading----modify-this-heading---">Next Section OR Conclusion Heading <!-- raw HTML omitted --></h3>
+<p>This paragraph block can be utilized to lead into the next section of the workshop (which might be a conclusion) or be a conclusion itself.</p>
+<h4 id="example-guidance-content-below">Example Guidance Content Below</h4>
+<h1 id="do-you-require-attendees-to-sign-up-for-things----modify-this-heading---">Do you require attendees to sign up for things? <!-- raw HTML omitted --></h1>
+<h3 id="introduction----modify-this-heading---">Introduction <!-- raw HTML omitted --></h3>
+<p>In this section, we are going to discuss tasks and concepts like retrieving access tokens and other configurations within some integration services.</p>
+<h3 id="docker-hub----modify-this-heading---">Docker Hub <!-- raw HTML omitted --></h3>
+<p>Docker Hub is a service provided by Docker for finding and sharing container images with your team. It is the world’s largest repository of container images with an array of content sources including container community developers, open source projects and independent software vendors (ISV) building and distributing their code in containers.</p>
+<h3 id="create-a-docker-hub-access-token----modify-this-heading---">Create a Docker Hub Access Token <!-- raw HTML omitted --></h3>
+<p>The pipeline will package the application into a Docker image. It then pushes that image a public Docker Hub image repository so that it will be available to the deployment segment of the pipeline. To push or upload the newly-built Docker image, the pipeline will need an access token to authorize transaction on your Docker Hub account. You will need to create a new access token (<a href="https://docs.docker.com/docker-hub/access-tokens/">https://docs.docker.com/docker-hub/access-tokens/</a>) and store it for use in later modules. To create your new access tokens:</p>
+<pre><code>Log in to hub.docker.com
+Click your username in the top right corner and select Account Settings
+Select Security &gt; New Access Token.
+Add a description for your token that indicates where the token will be used, or that sets a purpose for the token
+Copy the token that appears on the screen and record it in a safe location for use in future modules. Make sure you do this now! Once you close this prompt, Docker will never show the token again and you will have to create a new one
+</code></pre>
+<p>Warning: Docker Hub credentials and access tokens must be protected and not shared with unauthorized parties to prevent exposure and unauthorized access.</p>
+<p>Now that you have created and safely recorded your new access token, let’s move to the next section and create a new Snyk Access token.</p>
+<h3 id="snyk----modify-this-heading---">Snyk <!-- raw HTML omitted --></h3>
+<p>Snyk is an open source security platform designed to help software-driven businesses enhance developer security. Snyk’s dependency scanner makes it the only solution that seamlessly and proactively finds, prioritizes, and fixes vulnerabilities and license violations in open source dependencies and container images.</p>
+<h3 id="create-snyk-access-token----modify-this-heading---">Create Snyk Access Token <!-- raw HTML omitted --></h3>
+<pre><code>Visit your Snyk account (Account Settings &gt; API Token section) (https://app.snyk.io/account)
+In the KEY field, select click to show, then select and copy your API token from the field
+Paste the token that appears on the screen in a safe location for use in future modules
+</code></pre>
+<p>Warning: Your Snyk access token must be protected and not shared with unauthorized parties to prevent exposure and unauthorized access.</p>
+<p>You can read more about Snyk Access Token from their docs here.</p>
+<p>Great, you have created and safely stored your newly created Snyk access token, Now, let’s create the Terraform Cloud access token.</p>
+<h3 id="terraform-cloud----modify-this-heading---">Terraform Cloud <!-- raw HTML omitted --></h3>
+<p>Terraform Cloud is an application that helps teams use Terraform together. It manages Terraform runs in a consistent and reliable environment, and includes easy access to shared state and secret data, access controls for approving changes to infrastructure, a private registry for sharing Terraform modules, detailed policy controls for governing the contents of Terraform configurations, and more.</p>
+<p>You will be using Terraform Cloud to store the Terraform state of the infrastructures your pipeline will provision and deploy using Terraform in future modules.</p>
+<h3 id="create-terraform-cloud-access-token----modify-this-heading---">Create Terraform Cloud Access Token <!-- raw HTML omitted --></h3>
+<pre><code>Create a `[Terraform Cloud ](https://app.terraform.io/signup/account)` account
+Create a new '[Terraform Cloud organization ] (https://learn.hashicorp.com/terraform/cloud-getting-started/signup#create-your-organization)'
+Create a new '[Terraform Cloud workspace ] (https://learn.hashicorp.com/terraform/cloud-getting-started/create-workspace)' named: arm-aws-ecs
+Click the CLI-driven workflow option
+In the workspace, click arm-aws-ecs &gt; Settings &gt; General then enable '[local execution mode] (https://www.terraform.io/docs/cloud/workspaces/settings.html#execution-mode)'
+Go to the '[User Settings section] (https://www.terraform.io/docs/cloud/users-teams-organizations/users.html#user-settings)' in the Terraform Cloud Dashboard
+In the User Settings section, Create a new '[Terraform API token] (https://www.terraform.io/docs/cloud/users-teams-organizations/users.html#api-tokens)' then copy and paste the token in a secure location for later use.
+</code></pre>
+<p>Warning: Your Terraform Cloud API token must be protected and not shared with unauthorized parties to prevent exposure and unauthorized access.</p>
+<p>Great, you have created and safely stored your newly created Terraform Cloud API Token.</p>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+            </div> 
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/ee/3_modulethree.html" title="Partner Setup"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/ee/4_modulefour.html" title="Hugo Framework and Markdown" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1669217381"></script>
+    <script src="/js/perfect-scrollbar.min.js?1669217381"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1669217381"></script>
+    <script src="/js/jquery.sticky.js?1669217381"></script>
+    <script src="/js/featherlight.min.js?1669217381"></script>
+    <script src="/js/highlight.pack.js?1669217381"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js?1669217381"></script>
+    <script src="/js/learn.js?1669217381"></script>
+    <script src="/js/hugo-learn.js?1669217381"></script>
+    
+        
+            <script src="/mermaid/mermaid.js?1669217381"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
+

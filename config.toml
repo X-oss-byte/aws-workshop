@@ -2,10 +2,10 @@ baseURL = "/"
 languageCode = "en-US"
 defaultContentLanguage = "en" # Modify to change the default language/version of the site
 
-title = "AWS Modernization Workshop Sample"
+title = "Lightrun's Developer Observability on AWS Workshop"
 theme = "hugo-theme-learn"
 metaDataFormat = "yaml"
-defaultContentLanguageInSubdir= "false"
+defaultContentLanguageInSubdir= "true"
 uglyurls = "true"
 enableEmoji = true
 
@@ -75,8 +75,8 @@ url = "https://www.appmeshworkshop.com/"
 weight = 23
 
 [markup]
-  defaultMarkdownHandler = "blackfriday"
-  [markup.blackFriday]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
     hrefTargetBlank = true
 
 [Languages] # Modify to change the language/version settings and/or version secondary extensions
