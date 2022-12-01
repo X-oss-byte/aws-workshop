@@ -1,10 +1,10 @@
 ---
-title: "Lightrun's Developer Observability on AWS Workshop" # MODIFY THIS TO BE THE TITLE OF YOUR WORKSHOP
+title: "Lightrun's Developer Observability on AWS Workshop" 
 chapter: true
 weight: 1
 ---
 
-# Lightrun's Developer Observability on AWS Workshop <!-- CHANGE THIS TO BE THE TITLE OF YOUR WORKSHOP -->
+# Lightrun's Developer Observability on AWS Workshop 
 
 [![Lightrun](/images/Lightrun_Logo.png)](https://lightrun.com/)
 ## Welcome
