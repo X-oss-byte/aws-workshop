@@ -1,12 +1,12 @@
 ---
-title: "Workshop Next Steps" # MODIFY THIS TITLE TO REFLECT NEXT STEPS IF APPLICABLE
+title: "Workshop Next Steps"  TO REFLECT NEXT STEPS IF APPLICABLE
 chapter: true
-weight: 5 # MODIFY THIS VALUE TO REFLECT THE ORDERING OF THE MODULES IF APPLICABLE
+weight: 5  IF APPLICABLE
 ---
 
 # Workshop Next Steps <!-- MODIFY THIS HEADING IF APPLICABLE -->
 
-## Submodule Five Heading <!-- MODIFY THIS SUBHEADING -->
+## Submodule Five Heading
 
 This paragraph block should be an brief explanation of the next steps to take after the prerequisites have been set up. Diagrams or code samples can be shown to give a visual explanation of what will be taking place during the building of the solution. An example of content guidance can be found at the bottom of this page.
 
@@ -16,7 +16,7 @@ This paragraph block should be an brief explanation of the next steps to take af
 </p>
 {{% /notice %}}
 
-### Next Section Heading <!-- MODIFY THIS HEADING -->
+### Next Section Heading 
 This paragraph block can optionally be utilized to lead into the next section of the workshop.
 
 #### Example of content guidance

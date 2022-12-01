@@ -1,12 +1,12 @@
 ---
-title: "Technical Issue / Problem" # MODIFY THIS TITLE
+title: "Technical Issue / Problem" 
 chapter: true
-weight: 2 # MODIFY THIS VALUE TO REFLECT THE ORDERING OF THE MODULES IF APPLICABLE
+weight: 2  IF APPLICABLE
 ---
 
 # Technical Issue / Problem <!-- MODIFY THIS HEADING TO REFLECT THE PROBLEM THE WORKSHOP IS ADDRESSING -->
 
-## Submodule Two Heading <!-- MODIFY THIS SUBHEADING -->
+## Submodule Two Heading
 This paragraph block should be an introduction to the technical issue the solution is facing. An example of this can be seen at the bottom of this page. <br>
 
 {{% notice info %}}
@@ -15,7 +15,7 @@ This paragraph block should be an introduction to the technical issue the soluti
 </p>
 {{% /notice %}}
 
-### Next Section Heading <!-- MODIFY THIS HEADING -->
+### Next Section Heading 
 This paragraph block can optionally be utilized to lead into the next section of the workshop.
 
 

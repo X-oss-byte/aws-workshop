@@ -1,12 +1,12 @@
 ---
-title: "Foreword" # MODIFY THIS TITLE IF APPLICABLE
+title: "Foreword"  IF APPLICABLE
 chapter: true
-weight: 1 # MODIFY THIS VALUE TO REFLECT THE ORDERING OF THE MODULES IF APPLICABLE
+weight: 1  IF APPLICABLE
 ---
 
 # Foreword <!-- MODIFY THIS HEADING IF APPLICABLE -->
 
-## Submodule One Heading <!-- MODIFY THIS SUBHEADING -->
+## Submodule One Heading
 
 This paragraph block should be an explanation of an existing problem and how the partner has worked to achieve a solution for it. Example content guidance can be found at the bottom of this page.
 
@@ -16,7 +16,7 @@ This paragraph block should be an explanation of an existing problem and how the
 </p>
 {{% /notice %}}
 
-### Next Section Heading <!-- MODIFY THIS HEADING -->
+### Next Section Heading 
 This paragraph block can optionally be utilized to lead into the next section of the workshop.
 
 #### Example Content Guidance

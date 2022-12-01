@@ -1,7 +1,7 @@
 ---
-title: "Configure workshop specific requirements" # MODIFY THIS TITLE
+title: "Configure workshop specific requirements" 
 chapter: true
-weight: 6 # MODIFY THIS VALUE TO REFLECT THE ORDERING OF THE MODULES
+weight: 6 
 ---
 
 <!-- MORE SUBMODULES CAN BE ADDED TO DIVIDE UP THE SETUP INTO SMALLER SECTIONS -->
@@ -9,7 +9,7 @@ weight: 6 # MODIFY THIS VALUE TO REFLECT THE ORDERING OF THE MODULES
 
 # Configuring Workshop Specific Requirements <!-- MODIFY THIS HEADING IF NECESSARY -->
 
-## Submodule Five Heading <!-- MODIFY THIS SUBHEADING -->
+## Submodule Five Heading
 
 This paragraph block can be used to explain how to configure any specific workshop requirements if necessary. Example content guidance can be found at the bottom of the page.
 
@@ -19,12 +19,12 @@ This paragraph block can be used to explain how to configure any specific worksh
 </p>
 {{% /notice %}}
 
-### Next Section Heading <!-- MODIFY THIS HEADING -->
+### Next Section Heading 
 This paragraph block can optionally be utilized to lead into the next section of the workshop.
 
 
 #### Example Content Guidance
-# Configure Workspace <!-- MODIFY THIS SUBHEADING -->
+# Configure Workspace
 
     Return to your workspace and click the gear icon (in top right corner), or click to open a new tab and choose “Open Preferences”
 

@@ -1,16 +1,16 @@
 ---
-title: "Create a Workspace" # MODIFY THIS TITLE
+title: "Create a Workspace" 
 chapter: true
-weight: 2 # MODIFY THIS VALUE TO REFLECT THE ORDERING OF THE MODULES
+weight: 2 
 ---
 
 <!-- MORE SUBMODULES CAN BE ADDED TO DIVIDE UP THE SETUP INTO SMALLER SECTIONS -->
 <!-- COPY AND PASTE THIS SUBMODULE FILE, RENAME, AND CHANGE THE CONTENTS AS NECESSARY -->
 
 
-# Set Up The Workspace <!-- MODIFY THIS SUBHEADING -->
+# Set Up The Workspace
 
-## Submodule Two Heading <!-- MODIFY THIS SUBHEADING -->
+## Submodule Two Heading
 
 This paragraph block can be used to explain how to create a workspace if necessary. Example content guidance can be found at the bottom of the page.
 
@@ -20,7 +20,7 @@ This paragraph block can be used to explain how to create a workspace if necessa
 </p>
 {{% /notice %}}
 
-### Next Section Heading <!-- MODIFY THIS HEADING -->
+### Next Section Heading 
 This paragraph block can optionally be utilized to lead into the next section of the workshop.
 
 #### Example Content Guidance
@@ -36,7 +36,7 @@ We will use Amazon Cloud9 to access our AWS accounts via the AWS CLI in this Wor
     Configure workshop specific requirements
 
 
-### Create a new Cloud9 IDE environment <!-- MODIFY THIS SUBHEADING -->
+### Create a new Cloud9 IDE environment
 
     Within the AWS console, use the region drop list to select us-east-1 (N. Virginia). This will ensure the workshop script provisions the resources in this same region..
 
@@ -53,7 +53,7 @@ We will use Amazon Cloud9 to access our AWS accounts via the AWS CLI in this Wor
 Info: This will take about 1-2 minutes to provision
 
 
-### Configure Cloud9 IDE environment <!-- MODIFY THIS SUBHEADING -->
+### Configure Cloud9 IDE environment
 
 When the environment comes up, customize the environment by:
 

@@ -1,12 +1,12 @@
 ---
-title: "Who We Are" # MODIFY THIS TITLE
+title: "Who We Are" 
 chapter: true
-weight: 3 # MODIFY THIS VALUE TO REFLECT THE ORDERING OF THE MODULES IF APPLICABLE
+weight: 3  IF APPLICABLE
 ---
 
 # Who Are We? <!-- MODIFY THIS HEADING TO REFLECT THE PROBLEM THE WORKSHOP IS ADDRESSING -->
 
-## Submodule Three Heading <!-- MODIFY THIS SUBHEADING -->
+## Submodule Three Heading
 This paragraph block should be a brief introduction to the partner, their history, goals, partnerships, and accolades. <br>
 
 {{% notice info %}}
@@ -15,5 +15,5 @@ This paragraph block should be a brief introduction to the partner, their histor
 </p>
 {{% /notice %}}
 
-### Next Section Heading <!-- MODIFY THIS HEADING -->
+### Next Section Heading 
 This paragraph block can optionally be utilized to lead into the next section of the workshop.

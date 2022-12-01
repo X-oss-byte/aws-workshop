@@ -1,15 +1,15 @@
 ---
-title: "Create an IAM Role for your workspace" # MODIFY THIS TITLE
+title: "Create an IAM Role for your workspace" 
 chapter: true
-weight: 3 # MODIFY THIS VALUE TO REFLECT THE ORDERING OF THE MODULES
+weight: 3 
 ---
 
 <!-- MORE SUBMODULES CAN BE ADDED TO DIVIDE UP THE SETUP INTO SMALLER SECTIONS -->
 <!-- COPY AND PASTE THIS SUBMODULE FILE, RENAME, AND CHANGE THE CONTENTS AS NECESSARY -->
 
-# Create an IAM Role for your workspace <!-- MODIFY THIS SUBHEADING -->
+# Create an IAM Role for your workspace
 
-## Submodule Three Heading <!-- MODIFY THIS SUBHEADING -->
+## Submodule Three Heading
 
 This paragraph block can be used to explain how to create a workspace if necessary. Example content guidance can be found at the bottom of the page.
 
@@ -19,12 +19,12 @@ This paragraph block can be used to explain how to create a workspace if necessa
 </p>
 {{% /notice %}}
 
-### Next Section Heading <!-- MODIFY THIS HEADING -->
+### Next Section Heading 
 This paragraph block can optionally be utilized to lead into the next section of the workshop.
 
 #### Example Content Guidance
 
-### Create an IAM Role for your workspace <!-- MODIFY THIS SUBHEADING -->
+### Create an IAM Role for your workspace
 
 Info: Starting from here, when you see command to be entered such as below, you will enter these commands into Cloud9 IDE. You can use the Copy to clipboard feature (right hand upper corner) to simply copy and paste into Cloud9. In order to paste, you can use Ctrl + V for Windows or Command + V for Mac.
 

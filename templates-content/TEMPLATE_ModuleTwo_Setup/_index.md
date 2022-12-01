@@ -1,12 +1,12 @@
 ---
-title: "Self-Guided Workshop Setup" # MODIFY THIS TITLE IF APPLICABLE
+title: "Self-Guided Workshop Setup"  IF APPLICABLE
 chapter: true
 weight: 2
 ---
 
-# Self-Guided Workshop Setup <!-- MODIFY THIS HEADING -->
+# Self-Guided Workshop Setup 
 
-## Module Two Heading <!-- MODIFY THIS SUBHEADING -->
+## Module Two Heading
 
 This paragraph block should be an introduction to the module about the self-guided method of setting up the workshop. Some typical examples of the steps in this process this will involve setting up an AWS account, signing up for the partner platform, requesting marketplace credits, and provisioning both IAM roles and necessary AWS services. As with everything else, submodules can be added by copying and pasting files. An example of content guidance can be found at the bottom of the page. Extra module files can be added as necessary.
 
@@ -22,7 +22,7 @@ This paragraph block should be an introduction to the module about the self-guid
 The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various AWS services can be architected to build a solution while demonstrating best practices along the way. These examples are not intended for use in production environments.
 {{% /notice %}}
 
-### Next Section Heading <!-- MODIFY THIS HEADING -->
+### Next Section Heading 
 This paragraph block can optionally be utilized to lead into the next section of the workshop.
 
 

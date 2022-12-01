@@ -1,12 +1,12 @@
 ---
-title: "AWS Hosted Workshop Setup" # MODIFY THIS TITLE IF APPLICABLE
+title: "AWS Hosted Workshop Setup"  IF APPLICABLE
 chapter: true # MAKE SURE YOU SET THIS TO FALSE IF USING SELF-GUIDED SETUP
 weight: 2
 ---
 
-# AWS Hosted Workshop Setup <!-- MODIFY THIS HEADING -->
+# AWS Hosted Workshop Setup 
 
-## Module Two Heading <!-- MODIFY THIS SUBHEADING -->
+## Module Two Heading
 
 This paragraph block should be an introduction to the module about the method of setting up the workshop using EventEngine in AWS. Some typical examples of the steps in this process will explain logging out of any current AWS accounts, how to utilize the hashed URL, utilizing the Team Dashboard to log in to the AWS console, and ensure that the correct region is being selected.
 
@@ -26,12 +26,12 @@ The examples and sample code provided in this workshop are intended to be consum
 #### AWS Hosted Setup <!-- MODIFY THIS SUBHEADING IF APPLICABLE -->
 A brief overview of submodule two explaining setting up the workshop with the AWS EventEngine.
 
-### Next Section Heading <!-- MODIFY THIS HEADING -->
+### Next Section Heading 
 This paragraph block can optionally be utilized to lead into the next section of the workshop.
 
 
 #### Example Content Guidance
-# Event Engine <!-- MODIFY THIS HEADING -->
+# Event Engine 
 Welcome to the Event Engine Setup section! This means that you are attending an AWS Hosted Workshop! Event Engine is a tool created at AWS that provisions AWS accounts for workshop events like this! These accounts will automatically terminate 24 hours after the workshop begins so participants don’t have to worry about leaving anything on. Each workshop participant will receive their own Event Engine AWS account.
 
 Here is a preview of what we will be setting up:

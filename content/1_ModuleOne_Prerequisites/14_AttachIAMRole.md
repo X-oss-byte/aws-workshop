@@ -1,7 +1,7 @@
 ---
-title: "Attach IAM Role" # MODIFY THIS TITLE
+title: "Attach IAM Role" 
 chapter: true
-weight: 4 # MODIFY THIS VALUE TO REFLECT THE ORDERING OF THE MODULES
+weight: 4 
 ---
 
 <!-- MORE SUBMODULES CAN BE ADDED TO DIVIDE UP THE SETUP INTO SMALLER SECTIONS -->
@@ -9,7 +9,7 @@ weight: 4 # MODIFY THIS VALUE TO REFLECT THE ORDERING OF THE MODULES
 
 # Attaching an IAM Role
 
-## Submodule Four Heading <!-- MODIFY THIS SUBHEADING -->
+## Submodule Four Heading
 
 This paragraph block can be used to explain how to attach an IAM role if necessary. Example content guidance can be found at the bottom of the page.
 
@@ -19,11 +19,11 @@ This paragraph block can be used to explain how to attach an IAM role if necessa
 </p>
 {{% /notice %}}
 
-### Next Section Heading <!-- MODIFY THIS HEADING -->
+### Next Section Heading 
 This paragraph block can optionally be utilized to lead into the next section of the workshop.
 
 #### Example Content Guidance
-### Attach the IAM role to your instance <!-- MODIFY THIS SUBHEADING -->
+### Attach the IAM role to your instance
 Will need
 
     Follow this deep link to find your Cloud9 EC2 instance

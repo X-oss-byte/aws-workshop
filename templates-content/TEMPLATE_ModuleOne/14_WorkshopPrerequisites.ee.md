@@ -1,12 +1,12 @@
 ---
-title: "Workshop Prerequisites" # MODIFY THIS TITLE IF APPLICABLE
+title: "Workshop Prerequisites"  IF APPLICABLE
 chapter: true
-weight: 4 # MODIFY THIS VALUE TO REFLECT THE ORDERING OF THE MODULES IF APPLICABLE
+weight: 4  IF APPLICABLE
 ---
 
 # Workshop Prerequisites <!-- MODIFY THIS HEADING IF APPLICABLE -->
 
-## Submodule Four Heading <!-- MODIFY THIS SUBHEADING -->
+## Submodule Four Heading
 
 This paragraph block should be an introduction to the submodule. Are there any prerequisites the user must perform to begin the workshop? Do they need to sign up for any external accounts or install any tools? An example of content guidance can be found at the bottom of this page.
 
@@ -16,7 +16,7 @@ This paragraph block should be an introduction to the submodule. Are there any p
 </p>
 {{% /notice %}}
 
-### Next Section Heading <!-- MODIFY THIS HEADING -->
+### Next Section Heading 
 This paragraph block can optionally be utilized to lead into the next section of the workshop.
 
 

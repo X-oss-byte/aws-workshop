@@ -1,16 +1,16 @@
 ---
-title: "Partner Setup Instructions" # MODIFY THIS TITLE
+title: "Partner Setup Instructions" 
 chapter: true
-weight: 1 # MODIFY THIS VALUE TO REFLECT THE ORDERING OF THE MODULES
+weight: 1 
 ---
 
-# Partner Setup Instructions <!-- MODIFY THIS HEADING -->
+# Partner Setup Instructions 
 
-## Submodule One Heading <!-- MODIFY THIS SUBHEADING -->
+## Submodule One Heading
 
 This paragraph block should be an introduction to the submodule.
 
-### Submodule One Subheading <!-- MODIFY THIS SUBHEADING -->
+### Submodule One Subheading
 This paragraph block should be utilized to start the submodule. <br>
 
 {{% notice info %}}
@@ -19,26 +19,26 @@ This paragraph block should be utilized to start the submodule. <br>
 </p>
 {{% /notice %}}
 
-### Next Section OR Conclusion Heading <!-- MODIFY THIS HEADING -->
+### Next Section OR Conclusion Heading 
 This paragraph block can be utilized to lead into the next section of the workshop (which might be a conclusion) or be a conclusion itself.
 
 
 #### Example Guidance Content Below
 
 
-# Do you require attendees to sign up for things? <!-- MODIFY THIS HEADING -->
+# Do you require attendees to sign up for things? 
 
 
-### Introduction <!-- MODIFY THIS HEADING -->
+### Introduction 
 In this section, we are going to discuss tasks and concepts like retrieving access tokens and other configurations within some integration services.
 
 
-### Docker Hub <!-- MODIFY THIS HEADING -->
+### Docker Hub 
 
 Docker Hub is a service provided by Docker for finding and sharing container images with your team. It is the world’s largest repository of container images with an array of content sources including container community developers, open source projects and independent software vendors (ISV) building and distributing their code in containers.
 
 
-### Create a Docker Hub Access Token <!-- MODIFY THIS HEADING -->
+### Create a Docker Hub Access Token 
 
 The pipeline will package the application into a Docker image. It then pushes that image a public Docker Hub image repository so that it will be available to the deployment segment of the pipeline. To push or upload the newly-built Docker image, the pipeline will need an access token to authorize transaction on your Docker Hub account. You will need to create a new access token (https://docs.docker.com/docker-hub/access-tokens/) and store it for use in later modules. To create your new access tokens:
 
@@ -52,10 +52,10 @@ Warning: Docker Hub credentials and access tokens must be protected and not shar
 
 Now that you have created and safely recorded your new access token, let’s move to the next section and create a new Snyk Access token.
 
-### Snyk <!-- MODIFY THIS HEADING -->
+### Snyk 
 Snyk is an open source security platform designed to help software-driven businesses enhance developer security. Snyk’s dependency scanner makes it the only solution that seamlessly and proactively finds, prioritizes, and fixes vulnerabilities and license violations in open source dependencies and container images.
 
-### Create Snyk Access Token <!-- MODIFY THIS HEADING -->
+### Create Snyk Access Token 
 
     Visit your Snyk account (Account Settings > API Token section) (https://app.snyk.io/account)
     In the KEY field, select click to show, then select and copy your API token from the field
@@ -68,13 +68,13 @@ You can read more about Snyk Access Token from their docs here.
 Great, you have created and safely stored your newly created Snyk access token, Now, let’s create the Terraform Cloud access token.
 
 
-### Terraform Cloud <!-- MODIFY THIS HEADING -->
+### Terraform Cloud 
 
 Terraform Cloud is an application that helps teams use Terraform together. It manages Terraform runs in a consistent and reliable environment, and includes easy access to shared state and secret data, access controls for approving changes to infrastructure, a private registry for sharing Terraform modules, detailed policy controls for governing the contents of Terraform configurations, and more.
 
 You will be using Terraform Cloud to store the Terraform state of the infrastructures your pipeline will provision and deploy using Terraform in future modules.
 
-### Create Terraform Cloud Access Token <!-- MODIFY THIS HEADING -->
+### Create Terraform Cloud Access Token 
 
     Create a `[Terraform Cloud ](https://app.terraform.io/signup/account)` account
     Create a new '[Terraform Cloud organization ] (https://learn.hashicorp.com/terraform/cloud-getting-started/signup#create-your-organization)'

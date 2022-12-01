@@ -1,15 +1,15 @@
 ---
-title: "Setup AWS Account" # MODIFY THIS TITLE
+title: "Setup AWS Account" 
 chapter: true
-weight: 1 # MODIFY THIS VALUE TO REFLECT THE ORDERING OF THE MODULES
+weight: 1 
 ---
 
 <!-- MORE SUBMODULES CAN BE ADDED TO DIVIDE UP THE SETUP INTO SMALLER SECTIONS -->
 <!-- COPY AND PASTE THIS SUBMODULE FILE, RENAME, AND CHANGE THE CONTENTS AS NECESSARY -->
 
-# AWS Account Setup <!-- MODIFY THIS HEADING -->
+# AWS Account Setup 
 
-## Submodule One Heading <!-- MODIFY THIS SUBHEADING -->
+## Submodule One Heading
 
 This paragraph block can be used to explain how to setup an AWS account. Example content guidance can be found at the bottom of the page.
 
@@ -19,11 +19,11 @@ This paragraph block can be used to explain how to setup an AWS account. Example
 </p>
 {{% /notice %}}
 
-### Next Section Heading <!-- MODIFY THIS HEADING -->
+### Next Section Heading 
 This paragraph block can optionally be utilized to lead into the next section of the workshop.
 
 #### Example Content Guidance
-# Setting up your AWS account <!-- MODIFY THIS HEADING -->
+# Setting up your AWS account 
 
 If you don’t already have an AWS account with Administrator access: create one now by clicking <a href="https://aws.amazon.com/getting-started/">here</a>.
 
