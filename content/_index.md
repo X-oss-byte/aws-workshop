@@ -15,16 +15,29 @@ By breathing new life into the time-old practice of printf debugging, Lightrun's
 
 In this workshop you'll learn how to use Lightrun with a real-life, AWS-hosted application, and explore how dynamic instrumentation can change your development and troubleshooting experience.
 
-## Learning Objectives
-
-
+## Learning objectives
+* Get introduced to the main concepts around Developer Observability
+* See how developers can reduce MTTR, Time to Market and overall costs using Dynamic Instrumentation
+* Learn about augmenting an EKS cluster with Lightrun's Developer Observability Platform 
+## What Will We Cover in This Workshop
+* What is Developer Observability and why you should employ it
+* Deploying a Java application on EKS and making sure it is observable
+* Performing codeflow investigation in real time using Lightrun's Dynamic Instrumentation capabilities
+* Debugging 3rd-party libraries and dependencies using Lightrun
+* Analyzing and investigating performance issues in a production setting using Lightrun
+* Troubleshooting failing CI jobs using Lightrun without running the job again
+* Detecting whether a security vulnerability actually affects you at runtime using Lightrun
 ## Expected Duration
 2.5 Hours
 ## Who Should Take This Workshop?
 * Backend Engineers
-* 
-## What Will we Cover in this Worshop?
+* DevOps Engineers 
+* Site Reliability Engineers
+* Cloud Architects
+* Engineering Managers
 
+## Sample Reference Architecture
+TODO
 
 
 {{% notice warning %}}
