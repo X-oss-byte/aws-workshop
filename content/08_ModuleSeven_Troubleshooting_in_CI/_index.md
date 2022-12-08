@@ -1,9 +1,8 @@
 ---
-title: "Module 7: Troubleshooting in CI"
+title: "Troubleshooting in CI"
 chapter: true
 weight: 8
 ---
 
-# Troubleshooting in CI with Lightrun
-
+# Troubleshooting in CI
 TODO: Complete

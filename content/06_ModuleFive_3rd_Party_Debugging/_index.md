@@ -1,9 +1,9 @@
 ---
-title: "Module 5: 3rd Party Debugging"
+title: "3rd-party Library Debugging"
 chapter: true
 weight: 6
 ---
 
-# 3rd Party Debugging with Lightrun
+# 3rd-party Library Debugging
 
 TODO: Complete

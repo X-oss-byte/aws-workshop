@@ -4,6 +4,5 @@ chapter: true
 weight: 11
 ---
 
-# Observability Cost Optimization with Lightrun
-
+# Recap & Summary
 TODO: Complete

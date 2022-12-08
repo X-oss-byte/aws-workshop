@@ -1,8 +1,9 @@
 ---
-title: "Getting Started"
+title: "Summary"
 chapter: true
 weight: 3
 ---
 
-# Getting Started
+# Summary
+
 TODO: Complete

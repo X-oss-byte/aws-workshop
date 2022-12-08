@@ -1,9 +1,8 @@
 ---
-title: "Module 6: Performance Analysis & Investigation"
+title: "Performance Analysis & Investigation"
 chapter: true
 weight: 7
 ---
 
-# Performance Analysis & Investigation with Lightrun
-
+# Performance Analysis & Investigation
 TODO: Complete
