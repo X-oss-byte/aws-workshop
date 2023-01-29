@@ -1,8 +1,0 @@
----
-title: "Deploy Sample Application"
-chapter: true
-weight: 4
----
-
-# Deploy Sample Application
-TODO: Complete
