@@ -6,6 +6,9 @@ weight: 3
 
 # Lightrun - The Developer Observability Platform
 
+   ![Lightrun - Developer Observability Platform](/images/02_Developer_Observability/lightrun-platform.png)
+
+
 To make it easier for developers to keep track of their live applications, we should create a process that lets them access the information they need without making them change their usual tools and practices.
 
 The new process should have the following features:
