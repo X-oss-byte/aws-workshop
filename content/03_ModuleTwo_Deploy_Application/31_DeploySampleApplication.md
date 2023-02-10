@@ -62,7 +62,7 @@ Let's add Lightrun to the application and run it!
 
 All that's missing now are your Lightrun credentials - proceed to the [Lightrun Web Console](https://app.lightrun.com) and click "Set Up An Agent", then use the following configuration, and copy the snippet from step 1:
 
-   ![Lightrun - Developer Observability Platform](/images/03_Deploy_Application/setup-agent.png)
+   ![Setup Lightrun Agent](/images/03_Deploy_Application/setup-agent.png)
 
 The code should look something like this:
 
