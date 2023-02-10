@@ -6,6 +6,8 @@ weight: 3
 
 # Setting up your Lightrun account
 
+TODO: Remove all mention of EKS from workshop, make sure to note we converted it to Docker
+
 Lightrun's developer observability platform offers a fully-manged SaaS solution, which we will use during this workshop.
 
 {{% notice tip %}}
