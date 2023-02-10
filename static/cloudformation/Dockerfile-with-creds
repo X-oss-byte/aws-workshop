@@ -1,0 +1,16 @@
+FROM openjdk:11
+WORKDIR app
+
+# Set Lightrun key and company names an environment variable
+ENV COMPANY=8f1987b4-53e3-4e20-ae47-91f824d5d011
+ENV LIGHTRUN_KEY=812ab864-4e9a-4df0-8603-5eb2702972d8
+
+# Download and install lightrun JVM agent
+RUN apt-get update && \
+ apt-get install unzip && \
+  bash -c "$(curl -L "https://app.lightrun.com/public/download/company/${COMPANY}/install-agent.sh?platform=linux")"
+COPY ./PrimeMainMR.java ./
+
+# Run Lightrun
+RUN javac -g PrimeMainMR.java
+ENTRYPOINT ["java", "-agentpath:agent/lightrun_agent.so" ,"PrimeMainMR"]
