@@ -1,5 +1,5 @@
 ---
-title: "Codeflow Investigation"
+title: "Dynamic Logs"
 chapter: true
 weight: 5
 ---

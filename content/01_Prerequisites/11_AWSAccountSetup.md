@@ -5,7 +5,6 @@ weight: 1
 ---
 
 # Setting up your AWS account
-<!-- TODO - can I get a way to ask for credits too? -->
 {{% notice warning %}}
 You are responsible for the cost of the AWS services used while running this workshop in your AWS account. We highly recommend you to go to the [request AWS credit page](/030_self_guided_setup/30_request_credit.html) so you can run this workshop without any charge to you.
 {{% /notice %}}

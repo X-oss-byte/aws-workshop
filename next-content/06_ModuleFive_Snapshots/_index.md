@@ -1,5 +1,5 @@
 ---
-title: "3rd-party Library Debugging"
+title: "Code-level Snapshots"
 chapter: true
 weight: 6
 ---

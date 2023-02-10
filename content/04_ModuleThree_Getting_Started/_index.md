@@ -1,5 +1,5 @@
 ---
-title: "Getting Started"
+title: "Setup IDE"
 chapter: true
 weight: 4
 ---
